@@ -1,0 +1,77 @@
+/* resetear */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* centrar el contenido de la página */
+body {
+    text-align: center; 
+    background-color: #18529d; color: black; 
+}
+/* centrar el contenido de la página web */
+#agrupar {
+    margin: 50px 150px; 
+}
+/* formato a la cabecera de la página */
+#cabecera {
+    background-color: white; color: black;
+}
+/* formato para la barra de navegación */
+#menu {
+    background-color: #28AD56;
+    padding: 5px 15px;
+}
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+/* formato para seccion */
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+    text-align: left;
+    border-right: 2px solid white;
+    padding-right: 50px;
+}
+/* formato para columna */
+#columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
+/* formato para pie de página */
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #999999;
+}
+#article {
+    background: beige;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+#figcaption {
+    font: italic 1em verdana, sans-serif;
+}
+#time {
+    color: #999999;
+}
+/* estilo a los enlaces */
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: yellowgreen;
+}
